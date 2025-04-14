@@ -5,3 +5,5 @@ gsp-ssl.ls.apple.com
 location.apple.com
 lcdn-locator.apple.com
 fmipfw-lb.push.apple.com
+fmip.fe2.apple-dns.net
+gspe19-geo-selector.ls2-apple.com.akadns.net
