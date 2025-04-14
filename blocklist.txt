@@ -10,3 +10,5 @@ gspe19-geo-selector.ls2-apple.com.akadns.net
 bag.itunes.apple.com
 sandbox.itunes-apple.com.akadns.net
 gdmf.apple.com
+xp.apple.com
+fpinit.itunes.apple.com
