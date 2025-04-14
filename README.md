@@ -1,0 +1,1 @@
+# Apple-Find-My-DNS-Blocklist
