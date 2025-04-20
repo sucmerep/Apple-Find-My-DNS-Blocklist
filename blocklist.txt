@@ -1,28 +1,12 @@
-# Apple-Ortungsdienste DNS-Blockliste (AdGuard Home kompatibel)
-# Diese Liste blockiert Dienste wie „Mein iPhone suchen“, iCloud-Ortung,
-# standortbasierte Apple-Dienste (Wetter, Karten, Siri-Suche etc.) und 
-# alle Anfragen zur Standortbestimmung über Apple-Server.
-#
-# Find My (iCloud-Ortung) – umfasst „Mein iPhone suchen“, Freunde/Family-Ortung [oai_citation_attribution:0‡robtex.com](https://www.robtex.com/dns-lookup/p29-fmip.icloud.com#:~:text=%60p29)
-fmip.icloud.com
-fmipmobile.icloud.com
-fmf.icloud.com
-fmfmobile.icloud.com
-fmip.fe.apple-dns.net
-fmipmobile.fe.apple-dns.net
-fmf.fe.apple-dns.net
-fmfmobile.fe.apple-dns.net
-#
-# Apple Standortbestimmung – Server für Positionsbestimmung (GPS/WiFi/Cell) [oai_citation_attribution:1‡apple.stackexchange.com](https://apple.stackexchange.com/questions/63540/what-is-gs-loc-apple-com#:~:text=To%20confirm%2C%20I%20turned%20off,and%20Location%20Services%20stopped%20working) [oai_citation_attribution:2‡github.com](https://github.com/acheong08/apple-corelocation-experiments#:~:text=URL%3A%20https%3A%2F%2Fgspe85)
-gs-loc.apple.com
-ls.apple.com
-gsp-ssl.ls.apple.com
-#
-# Apple Push-Benachrichtigungen – genutzt u.a. für „Mein iPhone suchen“-Anfragen (APNs)
-push.apple.com
-sandbox.push.apple.com
-#
-# Sonstige Apple/CDN-Domains im Kontext Ortung
-apple-dns.net
-# Hinweis: Blockieren von Akamai-Alias kann andere Dienste beeinflussen [oai_citation_attribution:3‡github.com](https://github.com/cedws/apple-telemetry/blob/master/blacklist#:~:text=podcasts)
-akadns.net
+/(\.|^)apple\.com$/
+/(\.|^)icloud\.com$/
+/(\.|^)mzstatic\.com$/
+/(\.|^)apple-dns\.net$/
+/(\.|^)push\.apple\.com$/
+/(\.|^)apps\.apple\.com$/
+/(\.|^)api\.apple-cloudkit\.com$/
+/(\.|^)appleid\.apple\.com$/
+/(\.|^)edgesuite\.net$/
+/(\.|^)akadns\.net$/
+/(\.|^)cdn-apple\.com$/
+/(\.|^)itunes\.apple\.com$/
